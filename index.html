@@ -2,6 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {background-color: rgb(100,250,70);}
+            h1   {color: #FFFFAA;}
+            p    {color: hsl(50,34,50);}
+            h2   {color: red}
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+        </style>
         <title>Lab 1 Meeting Minutes</title>
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Picture_icon_BLACK.svg/1200px-Picture_icon_BLACK.svg.png">
     </head>
@@ -15,7 +23,7 @@
             
             <h1>HTML Lab YAY</h1>
 
-            <div>Div 1</div>
+            <div class="box"><p>Div 1</p></div>
             <div>Another Div (no CSS :()</div>
 
             <hr>
@@ -23,7 +31,7 @@
             <span>span 1</span>
             <span>:0 span 2</span>
 
-            <ul>
+            <ul style="padding-top: 1%;">
                 <li>this list is </li>
                 <li>unordered</li>
             </ul>
@@ -46,12 +54,12 @@
               <source src="lab2video.mp4" type="video/mp4">
             </video>
             
-            <section>
+            <section style="height: 100%; width:100%">
                 <h2>Header for a section</h2>
                 <p>Insert section content here.</p>
             </section>
 
-            <details>
+            <details style="max-width: 200%; min-width: none;">
                 <summary>Details</summary>
                 Not much to be honest.
             </details>
@@ -77,6 +85,10 @@
         </main>
         <footer>
             <form>
+                <div class="container">
+
+                    <p></p>
+                </div>
                 <fieldset>
                     <input type="text" placeholder="Enter Name" />
                     <button>Submit</button>
